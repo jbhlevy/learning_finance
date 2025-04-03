@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+plotly
+yfinance
+requests
+pytest
+boto3

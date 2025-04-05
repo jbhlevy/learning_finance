@@ -51,8 +51,6 @@ class Position:
     def pnl(self):
         if self.exit_price is None:
             return None  # Not closed yet
-        print("entry exit diff")
-        print(self.exit_price - self.entry_price)
         return self.shares * (self.exit_price - self.entry_price)
 
     def close_and_compute_pnl(self, exit_price, exit_date):
